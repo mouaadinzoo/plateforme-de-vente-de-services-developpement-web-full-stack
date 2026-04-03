@@ -1,0 +1,157 @@
+.singup-form {
+  border-radius: 20px;
+  background-color: #e4dcd1;
+  width: 50%;
+  height: 600px;
+  margin-right: 120px;
+  margin-top: -30px;
+}
+.singup {
+  display: flex;
+  justify-content: center; /* Horizontal alignment */
+  align-items: center; /* Vertical alignment */
+  height: 700px;
+}
+.google-button {
+  background-color: rgb(255, 255, 255);
+  width: 400px;
+  height: 57px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #23414b;
+  font-family: "Jost";
+  font-weight: 700;
+}
+.google-button:hover {
+  color: gray;
+}
+.hr {
+  width: 50%;
+}
+.line {
+  content: "";
+  flex: 1;
+  border-bottom: 2px solid #000000;
+  margin: 0 10px;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.or-lign {
+  display: flex;
+  margin-top: 35px;
+}
+.or-with-lign {
+  margin-right: 1px;
+  margin-left: 1px;
+  margin-top: 17px;
+}
+.text-or {
+  height: 22px;
+  font-size: 27px;
+}
+.input-name {
+  margin-bottom: 0;
+}
+.input-name1 {
+  margin-bottom: 0;
+}
+.eye {
+  position: absolute;
+  right: 37%;
+  top: 77.5%;
+  font-size: 23px;
+}
+.eye1 {
+    position: absolute;
+    right: 37%;
+    top: 90.5%;
+    font-size: 23px;
+  }
+.text-sign {
+  background: transparent;
+  border: none;
+  border-bottom: 1.5px solid #000000;
+  margin-bottom: 1.5px;
+  width: 90%;
+  height: 40px;
+  font-size: 22px;
+}
+.text-sign1 {
+  background: transparent;
+  border: none;
+  border-bottom: 1.5px solid #000000;
+  margin-bottom: 1.5px;
+  width: 500px;
+  height: 40px;
+  font-size: 22px;
+}
+
+.text-sign:focus {
+  border: none;
+  outline: none;
+  border-bottom: 2px solid #654f4f;
+}
+
+.caa {
+  text-align: left;
+  margin-left: 42px;
+  margin-top: 44px;
+
+  font-family: "Inter";
+  color: #23414b;
+}
+.as {
+  text-align: left;
+  margin-left: 45px;
+  margin-top: -10px;
+  margin-bottom: 38px;
+}
+.boxes {
+  text-align: left;
+  margin-left: 52px;
+  margin-top: 47px;
+}
+.fc {
+  color: #21738f;
+  font-weight: bolder;
+  font-family: "Inter";
+}
+.fc:hover {
+  color: #124354;
+  background-color: transparent;
+}
+
+.google-icon {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.google {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: -90px;
+  padding: 5px;
+}
+.google-text {
+  padding-top: 7px;
+  margin-left: -45px;
+}
+.cont-button {
+  display: flex;
+  justify-content: flex-end;
+}
+.continue-button {
+  margin-right: 52px;
+  height: 47px;
+  width: 180px;
+  border-radius: 7px;
+  border: none;
+  background-color: #dfb4a3;
+  color: #124354;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 40px;
+}
+.continue-button:hover {
+  color: #37241c;
+  background-color: #c99d89;
+}

@@ -1,0 +1,71 @@
+.part1 {
+  text-align: center !important;
+  background-color: #B3BBBC !important;
+  color: #23414B !important;
+}
+
+.part2 {
+  background-color: #23414B !important;
+  display: flex !important;
+  color: #ffffff !important;
+}
+
+ul {
+  list-style: none !important;
+  padding: 0 !important;
+}
+
+li {
+  margin-bottom: 5px !important;
+  text-align: left !important;
+  padding-right: -30px !important;
+}
+
+.titles {
+ 
+  font-size: larger !important;
+  margin-bottom: 16px !important;
+  margin-top: 10px !important;
+  width: 170px !important;
+}
+
+.accountbutton {
+  background-color: #DFB4A3 !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  height: 40px !important;
+  width: 190px !important;
+  border-radius: 25px !important;
+  border-color: #23414B !important;
+  border-width: 0.5px !important;
+  cursor: pointer !important;
+  font-family: Roboto !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  margin-top: 29px !important;
+  margin-bottom: 69px !important;
+  color: #23414B !important;
+}
+
+h3 {
+  padding-top: 69px !important;
+}
+
+.list {
+  margin-left: 40px !important;
+  margin-right: 57px !important;
+  font-family: 'Poppins' !important;
+  font-weight: 0 !important;
+  padding: 0 !important;
+}
+
+
+
+.endinfo {
+  margin-bottom: 25px !important;
+}
+
+.underlogo {
+  font-family: 'Poppins' !important;
+ 
+}

@@ -1,0 +1,48 @@
+WIN NSIBHA MARKETPLACE FRONTEND
+TECH STACK OVERVIEW
+
+1. Core application
+- React 18 powers the user interface.
+- Create React App (react-scripts 5) provides the development server and production build pipeline.
+
+2. Navigation
+- react-router-dom is used for page routing.
+- Main routes include the landing page, products, services, product details, service details, favorites, auth, profile, registration, reserve, add-product, and search screens.
+
+3. Styling approach
+- Tailwind CSS is enabled and used across many JSX components.
+- The project also uses several custom CSS files such as App.css, index.css, card.css, contact.css, and footer.css.
+- This means the styling strategy is mixed: utility classes plus handwritten stylesheet rules.
+
+4. UI libraries
+- @nextui-org/react is used for cards, buttons, images, badges, dropdowns, and avatars.
+- react-icons supplies icon sets for navigation and page sections.
+- react-slick and slick-carousel handle the product and service carousels.
+- react-hot-toast is used for simple user notifications.
+- framer-motion is installed for animation support.
+
+5. Data and state
+- React state hooks manage most screen state locally.
+- A custom FavoriteContext stores favorited items in memory during a session.
+- localStorage stores basic sign-in flags and the username.
+- react-cookie stores auth-related cookies such as access and refresh tokens.
+
+6. Backend communication
+- The frontend sends requests directly to a local API at http://127.0.0.1:8000.
+- Auth and search screens currently call:
+  POST /api/register
+  POST /api/login
+  GET /api/search?query=...
+- API URLs are hardcoded in components, so environment-based configuration has not been added yet.
+
+7. Build status
+- npm run build succeeds.
+- The build currently reports warnings, mostly around unused imports, accessibility issues, and legacy CRA dependency warnings.
+
+8. Main technical debt
+- Hardcoded API base URL
+- Mixed styling systems
+- In-memory favorites only
+- Placeholder or demo data on multiple pages
+- A large number of lint warnings
+- CRA is no longer actively maintained

@@ -1,0 +1,33 @@
+.coninfo{
+    font-weight: bold;
+    margin-left: 33px;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    
+   
+}
+
+
+
+.contact-info{
+   
+   font-weight: bold;
+  margin-top: 20px;
+   text-align: left;
+}
+.callicon{
+    
+    background-color: gray;
+    font-size: 17px;
+    border-radius: 21px;
+    padding: 15px;
+  
+   
+    
+}
+.a11{
+    padding-left: 30px;
+   
+}

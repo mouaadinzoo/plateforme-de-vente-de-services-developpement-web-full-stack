@@ -1,0 +1,43 @@
+WIN NSIBHA MARKETPLACE FRONTEND
+SETUP AND MAINTENANCE NOTES
+
+Recommended repository name:
+win-nsibha-marketplace-frontend
+
+What this repository contains:
+- Frontend only
+- React single-page application
+- Static assets in public/
+- Route and page components in src/
+
+What must exist outside this repository:
+- A backend API server listening on 127.0.0.1:8000
+
+Frontend routes currently implemented:
+- /
+- /Products
+- /Services
+- /Showproduct/:images1?/:images2?/:productname?/:location?/:images3?/:images4?/:desc?/
+- /Showservices/:images1?/:productname?/:location?/:desc?/
+- /Singup
+- /Signin
+- /Profil
+- /Fav/:count?/
+- /Register
+- /Reserve
+- /Addproduct
+- /Search
+
+Important setup facts:
+- npm start serves the app on localhost:3000
+- npm run build produces a deployable build/ directory
+- .gitignore already excludes node_modules and build output
+- Backend URLs are hardcoded, so deployment to another API host will require code changes
+
+Recommended next improvements:
+- Move API base URL into environment variables
+- Clean up ESLint warnings
+- Add route guards for authenticated screens
+- Persist favorites to localStorage or the backend
+- Replace placeholder content with real backend data
+- Consider migrating away from Create React App in the future

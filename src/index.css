@@ -1,0 +1,289 @@
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #E5DDD2;
+}
+
+.logo {
+  width: 100px;
+  height: 110px;
+  margin-right: 20px;
+  margin-bottom: 0%;
+  margin-top: 0px;
+}
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #E5DDD2;
+  margin-bottom: 40px;
+  
+}
+
+.sa {
+  padding-right: 40px;
+  padding-top: 20px;
+  margin-bottom: 40%;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  text-decoration: none;
+  color: #22404A;
+  border-radius: 50px;
+  font-weight: bold;
+  text-shadow: 0 0 1px #E5DDD2, 0 0 1px #E5DDD2;
+  font-family: Poppins;
+}
+
+a:hover {
+  color: brown;
+  background-color: white;
+}
+
+form {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+  width: 50px;
+  height: 50px;
+  background: white;
+  box-sizing: border-box;
+  border-radius: 25px;
+  border: 4px solid white;
+  padding: 10px;
+  margin-top: 45px;
+  margin-right: 150px;
+}
+
+.input6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 42.5px;
+  line-height: 30px;
+  outline: 0;
+  border: 0;
+  display: none;
+  font-size: 1em;
+  border-radius: 20px;
+  padding: 0 20px;
+}
+
+.fa {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 42.5px;
+  height: 42.5px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  color: #07051a;
+  text-align: center;
+  font-size: 1.2em;
+  transition: all 1s;
+}
+
+form:hover,
+form:valid {
+  width: 200px;
+  cursor: pointer;
+}
+
+form:hover input,
+form:valid input {
+  display: block;
+}
+
+form:hover .fa,
+form:valid .fa {
+  background: #07051a;
+  color: white;
+}
+
+form:valid a {
+  display: block;
+}
+
+.hurt {
+  height: 40px;
+  
+  width: 40px;
+  margin-right: 25px;
+}
+
+.likeser {
+  display: flex;
+  align-items: center;
+  margin-right: 11px;
+}
+
+.bo {
+  background-color: #22404A;
+  width: 99%; /* Adjust width as needed */
+  height: 550px;
+  padding: 5%;
+  border-radius: 10px;
+
+  margin: 3px;
+ 
+  background-size: cover; /* Use cover to ensure image covers the entire container */
+}
+
+.Windowbar {
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.Searchbar {
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .Windowbar {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: stretch; /* Stretch items to fill container */
+  }
+
+  .Searchbar {
+    margin-right: 0; /* Remove right margin on smaller screens */
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+  }
+}
+.hh {
+  color: #E5DDD2;
+  font-size: 7vw; /* Responsive font size */
+  text-align: left; /* Center align */
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+
+.uu {
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.input {
+  width: 100%; /* Full width */
+  max-width: 570px; /* Max width */
+  height: 56px;
+  border: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background: #e8e8e8;
+  box-shadow: 10px 10px 30px #c5c5c5, -10px -10px 30px #ffffff;
+  transition: 0.3s;
+  margin-left: 530px;
+  margin-top: 20px;
+}
+
+.input:focus {
+  outline-color: #e8e8e8;
+  background: #e8e8e8;
+  box-shadow: 5px 5px 15px #c5c5c5, -5px -5px 15px #ffffff;
+  transition: 0.3s;
+}
+
+/* Reset some default button styles */
+.accountbutton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  border-radius: 3000px;
+  width: 40px;
+  height: 40px;
+  right: 20px;
+}
+
+/* Style for heart button */
+.heart-btn {
+  position: relative;
+  padding: 8px 10px;
+  color: transparent;
+  font-size: 20px;
+  
+}
+.prob{
+  margin-top: -130px;
+}
+.sidename{
+  text-align: left;
+  margin-left: 120px;
+  margin-bottom: -95px;
+  margin-top: 110px;
+  font-weight: bold;
+  color: #23414b;
+  font-size: 30px;
+}
+.trend-text{
+  color: #23414b;
+  font-size: 90px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Hover effect */
+.heart-btn:hover {
+  color: rgb(134, 131, 131);
+}
+
+.slick-slide > div {
+  margin: 0 20px;
+}
+
+.yyy {
+  width: auto;
+  margin-top: -25px;
+
+  
+}
+
+/* Responsive styles using media queries */
+@media screen and (max-width: 768px) {
+  .Navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .sa {
+    margin: 0;
+    padding: 10px 20px;
+  }
+  
+  .uu {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.profilname{
+  color: #22404A;
+  font-weight: bold;
+  text-align: left;
+  margin-left: -40px;
+  
+}
+.profillocation{
+  color: #22404A;
+  
+  text-align: left;
+  margin-left: -50px;
+  
+}
