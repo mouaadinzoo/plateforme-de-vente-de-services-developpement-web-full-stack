@@ -1,8 +1,8 @@
-# Win Nsibha Marketplace Frontend
+# Plateforme de vente de services - Developpement web full stack
 
-Win Nsibha Marketplace Frontend is a React single-page application for browsing products and services, signing up or signing in, saving favorites, searching listings, and viewing seller-facing screens.
+Plateforme de vente de services - Developpement web full stack is a React single-page application for browsing products and services, signing up or signing in, saving favorites, searching listings, and viewing seller-facing screens.
 
-Recommended GitHub repository name: `win-nsibha-marketplace-frontend`
+Recommended GitHub repository name: `plateforme-de-vente-de-services-developpement-web-full-stack`
 
 ## What The Project Does
 

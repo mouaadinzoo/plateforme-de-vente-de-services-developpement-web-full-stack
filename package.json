@@ -1,8 +1,8 @@
 {
-  "name": "win-nsibha-marketplace-frontend",
+  "name": "plateforme-de-vente-de-services-developpement-web-full-stack",
   "version": "0.1.0",
   "private": true,
-  "description": "Frontend marketplace UI for Win Nsibha products and services.",
+  "description": "Plateforme de vente de services - Developpement web full stack.",
   "dependencies": {
     "@leecheuk/react-google-login": "^5.4.1",
     "@nextui-org/react": "^2.3.4",

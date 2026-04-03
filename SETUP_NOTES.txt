@@ -1,8 +1,8 @@
-WIN NSIBHA MARKETPLACE FRONTEND
+PLATEFORME DE VENTE DE SERVICES - DEVELOPPEMENT WEB FULL STACK
 SETUP AND MAINTENANCE NOTES
 
 Recommended repository name:
-win-nsibha-marketplace-frontend
+plateforme-de-vente-de-services-developpement-web-full-stack
 
 What this repository contains:
 - Frontend only
